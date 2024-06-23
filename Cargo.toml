@@ -1,0 +1,8 @@
+[package]
+name = "commands_register_system_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { git = "https://github.com/darthLeviN/bevy.git", branch = "Commands.register_system", features = ["dynamic_linking"] }
+rand = "0.8.5"
